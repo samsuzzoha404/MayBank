@@ -1,0 +1,39 @@
+body{
+    padding: 100px;
+}
+
+#text:hover{
+    color: rgb(255, 0, 0);
+}
+
+.submit-area{
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 40px;
+    box-shadow: 8px 8px 20px gray;
+    background-color: rgb(238, 238, 75);
+}
+
+#button:hover{
+    color: #000000;
+}
+
+#transaction-area{
+    display: none;
+}
+
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: lightcoral;
+}
+.status{
+    margin: 0 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
